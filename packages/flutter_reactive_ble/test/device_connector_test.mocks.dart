@@ -4,9 +4,9 @@
 
 import 'dart:async' as _i4;
 
-import 'package:flutter_reactive_ble/flutter_reactive_ble.dart' as _i3;
-import 'package:flutter_reactive_ble/src/device_scanner.dart' as _i5;
-import 'package:flutter_reactive_ble/src/discovered_devices_registry.dart'
+import 'package:flutter_reactive_ble_ios/flutter_reactive_ble.dart' as _i3;
+import 'package:flutter_reactive_ble_ios/src/device_scanner.dart' as _i5;
+import 'package:flutter_reactive_ble_ios/src/discovered_devices_registry.dart'
     as _i6;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:reactive_ble_platform_interface/src/models.dart' as _i2;

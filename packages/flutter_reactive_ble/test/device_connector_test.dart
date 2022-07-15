@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
-import 'package:flutter_reactive_ble/flutter_reactive_ble.dart';
-import 'package:flutter_reactive_ble/src/device_connector.dart';
-import 'package:flutter_reactive_ble/src/device_scanner.dart';
-import 'package:flutter_reactive_ble/src/discovered_devices_registry.dart';
+import 'package:flutter_reactive_ble_ios/flutter_reactive_ble.dart';
+import 'package:flutter_reactive_ble_ios/src/device_connector.dart';
+import 'package:flutter_reactive_ble_ios/src/device_scanner.dart';
+import 'package:flutter_reactive_ble_ios/src/discovered_devices_registry.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

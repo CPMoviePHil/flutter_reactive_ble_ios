@@ -1,4 +1,4 @@
-import 'package:flutter_reactive_ble/flutter_reactive_ble.dart';
+import 'package:flutter_reactive_ble_ios/flutter_reactive_ble.dart';
 import 'package:meta/meta.dart';
 
 abstract class ConnectedDeviceOperation {

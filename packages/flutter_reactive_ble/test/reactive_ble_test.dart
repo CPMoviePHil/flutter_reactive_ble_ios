@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:typed_data';
 
-import 'package:flutter_reactive_ble/flutter_reactive_ble.dart';
-import 'package:flutter_reactive_ble/src/connected_device_operation.dart';
-import 'package:flutter_reactive_ble/src/debug_logger.dart';
-import 'package:flutter_reactive_ble/src/device_connector.dart';
-import 'package:flutter_reactive_ble/src/device_scanner.dart';
+import 'package:flutter_reactive_ble_ios/flutter_reactive_ble.dart';
+import 'package:flutter_reactive_ble_ios/src/connected_device_operation.dart';
+import 'package:flutter_reactive_ble_ios/src/debug_logger.dart';
+import 'package:flutter_reactive_ble_ios/src/device_connector.dart';
+import 'package:flutter_reactive_ble_ios/src/device_scanner.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
