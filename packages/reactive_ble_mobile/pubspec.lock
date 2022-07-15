@@ -357,9 +357,11 @@ packages:
   reactive_ble_platform_interface:
     dependency: "direct main"
     description:
-      path: "../reactive_ble_platform_interface"
-      relative: true
-    source: path
+      path: "packages/reactive_ble_platform_interface"
+      ref: master
+      resolved-ref: "6350ae74e22ed6189c01e3b0dae4765b7f87ebf1"
+      url: "https://github.com/CPMoviePHil/flutter_reactive_ble_ios.git"
+    source: git
     version: "5.0.2"
   shelf:
     dependency: transitive
