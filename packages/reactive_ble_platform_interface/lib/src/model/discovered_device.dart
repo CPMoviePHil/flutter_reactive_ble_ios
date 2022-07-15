@@ -29,7 +29,7 @@ class DiscoveredDevice extends $DiscoveredDevice {
   final String id;
   final String name;
   @CustomEquality(DeepCollectionEquality())
-  final Map<Uuid, Uint8List> serviceData;
+  final Map<Uuid, dynamic> serviceData;
 
   /// Advertised services
   @CustomEquality(DeepCollectionEquality())

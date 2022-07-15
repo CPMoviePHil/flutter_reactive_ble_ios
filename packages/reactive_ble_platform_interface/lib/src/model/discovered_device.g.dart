@@ -67,7 +67,7 @@ abstract class $DiscoveredDevice {
 
   String get id;
   String get name;
-  Map<Uuid, Uint8List> get serviceData;
+  Map<Uuid, dynamic> get serviceData;
   List<Uuid> get serviceUuids;
   Uint8List get manufacturerData;
   int get rssi;
