@@ -75,7 +75,7 @@ abstract class $DiscoveredDevice {
   DiscoveredDevice copyWith({
     String? id,
     String? name,
-    Map<Uuid, Uint8List>? serviceData,
+    Map<Uuid, dynamic>? serviceData,
     List<Uuid>? serviceUuids,
     Uint8List? manufacturerData,
     int? rssi,
@@ -154,7 +154,7 @@ class DiscoveredDevice$Change {
 
   String id;
   String name;
-  Map<Uuid, Uint8List> serviceData;
+  Map<Uuid, dynamic> serviceData;
   List<Uuid> serviceUuids;
   Uint8List manufacturerData;
   int rssi;
@@ -172,7 +172,7 @@ class DiscoveredDevice$ {
     (nameContainer, name) => nameContainer.copyWith(name: name),
   );
 
-  static final serviceData = Lens<DiscoveredDevice, Map<Uuid, Uint8List>>(
+  static final serviceData = Lens<DiscoveredDevice, Map<Uuid, dynamic>>(
     (serviceDataContainer) => serviceDataContainer.serviceData,
     (serviceDataContainer, serviceData) =>
         serviceDataContainer.copyWith(serviceData: serviceData),
