@@ -67,7 +67,7 @@ abstract class $DiscoveredDevice {
 
   String get id;
   String get name;
-  Map<Uuid, dynamic> get serviceData;
+  Map<Uuid, Uint8List> get serviceData;
   List<Uuid> get serviceUuids;
   Uint8List get manufacturerData;
   int get rssi;
@@ -75,7 +75,7 @@ abstract class $DiscoveredDevice {
   DiscoveredDevice copyWith({
     String? id,
     String? name,
-    Map<Uuid, dynamic>? serviceData,
+    Map<Uuid, Uint8List>? serviceData,
     List<Uuid>? serviceUuids,
     Uint8List? manufacturerData,
     int? rssi,
@@ -154,7 +154,7 @@ class DiscoveredDevice$Change {
 
   String id;
   String name;
-  Map<Uuid, dynamic> serviceData;
+  Map<Uuid, Uint8List> serviceData;
   List<Uuid> serviceUuids;
   Uint8List manufacturerData;
   int rssi;
