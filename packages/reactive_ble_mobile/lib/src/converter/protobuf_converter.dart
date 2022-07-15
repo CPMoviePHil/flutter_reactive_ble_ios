@@ -47,7 +47,7 @@ class ProtobufConverterImpl implements ProtobufConverter {
 
     final serviceData = Map.fromIterables(
       message.serviceData.map((entry) => Uuid(entry.serviceUuid.data)),
-      message.serviceData.map((entry) => Uint8List.fromList(entry.data)),
+      message.serviceData.map((entry) => entry.data),
     );
 
     final serviceUuids = message.serviceUuids
