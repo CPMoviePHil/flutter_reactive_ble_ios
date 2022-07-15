@@ -172,7 +172,7 @@ class DiscoveredDevice$ {
     (nameContainer, name) => nameContainer.copyWith(name: name),
   );
 
-  static final serviceData = Lens<DiscoveredDevice, Map<Uuid, dynamic>>(
+  static final serviceData = Lens<DiscoveredDevice, Map<Uuid, Uint8List>>(
     (serviceDataContainer) => serviceDataContainer.serviceData,
     (serviceDataContainer, serviceData) =>
         serviceDataContainer.copyWith(serviceData: serviceData),
